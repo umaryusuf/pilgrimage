@@ -1,0 +1,121 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+    max-width: 100%;
+}
+
+body{
+    padding-top: 55px;
+    font-family: ubuntu;
+    font-size: 100%;
+    color: #000 !important;
+}
+nav{
+    /*background: #2196f3 !important;*/
+}
+nav a{
+    /*color: #fff !important;*/
+}
+
+.navbar-brand{
+    font-family: lobster;
+}
+.panel-primary {
+  border-color: #1C73BD;
+}
+.panel-primary .panel-heading {
+  border-color: #1C73BD;
+  color: #fff;
+  /*background-color: #1C73BD;*/
+}
+.panel-green {
+    border-color: #18bc9c;
+}
+.panel-green .panel-heading {
+  border-color: #18bc9c;
+  color: #fff;
+  background-color: #18bc9c;
+}
+.panel-yellow {
+  border-color: #24C80E;
+}
+.panel-yellow .panel-heading {
+  border-color: #24C80E;
+  color: #fff;
+  background-color: #24C80E;
+}
+.huge {
+  font-size: 25px;
+}
+.bordered{
+  border-bottom: 1px dotted #000;
+}
+.bordered-up{
+  border-top: 1px dotted #000;
+}
+.naira {
+  text-decoration: line-through;
+}
+.white{
+  color: white;
+}
+div.active{
+  background: #d8d8d8;
+  padding: 1px;
+  margin-bottom: 10px;
+}

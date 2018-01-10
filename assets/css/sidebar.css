@@ -1,0 +1,91 @@
+*{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+/*style the sidebar*/
+body{
+  padding-top: 55px;
+}
+#sidebar-wrapper{
+  z-index: 1;
+  position: fixed;
+  width: 0;
+  height: 100%;
+  overflow-y: scroll;
+  background: #18bc9c;
+}
+
+/*main content*/
+#page-content-wrapper{
+  width: 100%;
+  position: absolute;
+  padding: 15px;
+}
+/*the sidebar to display*/
+#wrapper.menuDisplayed #sidebar-wrapper{
+  width: 255px;
+  overflow-y: scroll;
+}
+
+#wrapper.menuDisplayed #page-content-wrapper{
+  padding-left: 260px;
+}
+
+/*styling sidebar*/
+#sidebar-nav{
+  padding: 0;
+  list-style: none;
+  margin: 20px 0 40px;
+}
+#sidebar-nav li{
+  text-indent: 20px;
+  line-height: 45px;
+}
+#sidebar-nav li a{
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  border-top: 1px  solid #fcfcfc;
+  /*border-bottom: 1px solid #222;*/
+}
+#sidebar-nav li a:hover{
+  background: #08AF8E;
+  border-left: 4px solid #ccc;
+}
+#sidebar-nav li ul{
+  list-style-type: none;
+  margin: 0;
+}
+#menu-toggle{
+  font-size: 23px;
+}
+.sidebar-header{
+  padding:20px 0 5px;
+}
+.icons{
+  position: relative;
+  left: -35px;
+}
+.profile-photo > img{
+  margin-left: 5px;
+}
+.profile-info span a{
+  padding: 5px;
+  color: #ddd;
+  margin-left: 5px;
+}
+.home{
+  font-size: 20px;
+  padding: 0 12px;
+}
+nav.navbar{
+  border-bottom: 1px solid #ccc;
+  margin: 0;
+}
+nav ul li{
+  border-right: 1px solid #ccc;
+}
+nav ul li:first-child{
+  border-left: 1px solid #ccc;
+}
